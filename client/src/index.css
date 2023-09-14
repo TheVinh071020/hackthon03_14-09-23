@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  color: white;
+  height: 80px;
+}
+.header h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+.btn .action{
+  width: 250px;
+  height: 50px;
+  background-color:rgb(67, 174, 255);
+  margin: 30px 0;
+  border-radius: 10px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  position: relative;
+
+}
+.btn .action .action-add input{
+  border: 1px;
+  width: 200px;
+  height: 25px;
+  background-color: rgb(211, 246, 246);
+  border-radius: 2px;
+}
+.btn .action .action-icon{
+  background-color: white;
+  border: 1px;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  background-color: aqua;
+  padding: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li button {
+  margin-left: 15px;
+  background-color: white;
+  border:1px ridge;
+}
+
